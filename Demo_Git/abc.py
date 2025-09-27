@@ -1,0 +1,6 @@
+print("Hello World")
+print("Welcome to Git")
+print("This is a demo file for Git")
+print("This file is named abc.py")
+print("This file is located in Demo_Git folder")
+print("This is the last line of the file")
