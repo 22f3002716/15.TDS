@@ -1,3 +1,9 @@
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#     "httpx",
+# ]
+# ///
 print("Hello World")
 print("Welcome to Git")
 print("This is a demo file for Git")

@@ -1,0 +1,375 @@
+PS F:\10.BSc_Data Science\15.TDS> uvx marimo
+Installed 25 packages in 3.31s
+Usage: marimo [OPTIONS] COMMAND [ARGS]...
+
+  Welcome to marimo!
+  
+  Getting started:
+
+    * marimo tutorial intro  
+  
+
+  Example usage:
+
+    * marimo edit               create or edit notebooks
+  
+    * marimo edit notebook.py   create or edit a notebook called notebook.py
+  
+  
+    * marimo tutorial --help    list tutorials
+                                  and server autoreload.
+  -h, --help                      Show this message and exit.
+
+Commands:
+  check             Check and format marimo files.
+  config            Various commands for the marimo config.
+  convert           Convert a Jupyter notebook, Markdown file, or Python...
+  edit              Create or edit notebooks.
+  env               Print out environment information for debugging...
+  export            Export a notebook to various formats.
+  new               Create an empty notebook, or generate from a prompt...
+  recover           Recover a marimo notebook from JSON.
+  run               Run a notebook as an app in read-only mode.
+  shell-completion  Install shell completions for marimo.
+  tutorial          Open a tutorial.
+
+
+  PS F:\10.BSc_Data Science\15.TDS> uvx llm
+Installed 34 packages in 764ms
+
+
+
+
+
+
+
+
+
+
+Aborted!
+
+
+PS F:\10.BSc_Data Science\15.TDS> uvx openwebui
+  × No solution found when resolving tool dependencies:
+  ╰─▶ Because openwebui was not found in the package registry and you require openwebui, we can conclude    
+      that your requirements are unsatisfiable.
+
+
+PS F:\10.BSc_Data Science\15.TDS> uvx httpie
+Installed 17 packages in 524ms
+usage: httpie [-h] [--debug] [--traceback] [--version] {cli,plugins} ...
+httpie: error: Please specify one of these: 'cli', 'plugins'
+
+This command is only for managing HTTPie plugins.
+To send a request, please use the http/https commands:
+
+  $ http POST pie.dev/post hello=world
+
+  $ https POST pie.dev/post hello=world
+
+
+PS F:\10.BSc_Data Science\15.TDS> uvx datasette
+Installed 30 packages in 859ms
+C:\Users\User\AppData\Local\uv\cache\archive-v0\rvXXlryVyV-M5sQF5Jo_5\Lib\site-packages\datasette\app.py:14: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+INFO:     Started server process [17952]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+INFO:     127.0.0.1:63953 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63953 - "GET /-/static/app.css?d59929 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63953 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63953 - "GET /_memory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63953 - "GET /-/static/app.css?d59929 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64024 - "GET /-/static/codemirror-5.57.0.min.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64025 - "GET /-/static/codemirror-5.57.0-sql.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64026 - "GET /-/static/cm-resize-1.0.1.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64022 - "GET /-/static/sql-formatter-2.3.3.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64023 - "GET /-/static/codemirror-5.57.0.min.js HTTP/1.1" 200 OK
+PS F:\10.BSc_Data Science\15.TDS> INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [17952]
+
+
+
+PS F:\10.BSc_Data Science\15.TDS> uvx markitdown
+Installed 26 packages in 2.20s
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\User\AppData\Local\uv\cache\archive-v0\LE39dW3n6qC9ek21cxgQS\Scripts\markitdown.exe\__main__.py", line 10, in <module>
+  File "C:\Users\User\AppData\Local\uv\cache\archive-v0\LE39dW3n6qC9ek21cxgQS\Lib\site-packages\markitdown\__main__.py", line 190, in main
+    result = markitdown.convert_stream(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\uv\cache\archive-v0\LE39dW3n6qC9ek21cxgQS\Lib\site-packages\markitdown\_markitdown.py", line 366, in convert_stream
+    chunk = stream.read(4096)
+            ^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+
+PS F:\10.BSc_Data Science\15.TDS> uvx yt-dip
+  × No solution found when resolving tool dependencies:
+  ╰─▶ Because yt-dip was not found in the package registry and you require yt-dip, we can conclude that     
+      your requirements are unsatisfiable.
+
+
+PS F:\10.BSc_Data Science\15.TDS> uvx asciinema
+Installed 1 package in 51ms
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\User\AppData\Local\uv\cache\archive-v0\_94_rDkwVg7_o9FV_DMbP\Scripts\asciinema.exe\__main__.py", line 4, in <module>
+  File "C:\Users\User\AppData\Local\uv\cache\archive-v0\_94_rDkwVg7_o9FV_DMbP\Lib\site-packages\asciinema\__init__.py", line 12, in <module>
+    from .recorder import record
+  File "C:\Users\User\AppData\Local\uv\cache\archive-v0\_94_rDkwVg7_o9FV_DMbP\Lib\site-packages\asciinema\recorder.py", line 6, in <module>
+    from . import pty_ as pty  # avoid collisions with standard library `pty`
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\uv\cache\archive-v0\_94_rDkwVg7_o9FV_DMbP\Lib\site-packages\asciinema\pty_.py", line 2, in <module>
+    import fcntl
+ModuleNotFoundError: No module named 'fcntl'
+
+
+
+PS F:\10.BSc_Data Science\15.TDS\Demo_Git> npx http-server .
+Need to install the following packages:
+http-server@14.1.1
+Ok to proceed? (y)
+
+Starting up http-server, serving .
+
+http-server version: 14.1.1    
+
+http-server settings: 
+Cache: 3600 seconds
+Connection Timeout: 120 seconds
+Directory Listings: visible
+AutoIndex: visible
+Serve GZIP Files: false
+Serve Brotli Files: false
+Default File Extension: none
+
+Available on:
+  http://192.168.0.116:8080
+  http://127.0.0.1:8080
+Hit CTRL-C to stop the server
+
+[2025-10-04T07:36:05.841Z]  "GET /" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0"
+(node:2164) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-10-04T07:36:05.994Z]  "GET /favicon.ico" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 
+Firefox/143.0"
+[2025-10-04T07:36:05.998Z]  "GET /favicon.ico" Error (404): "Not found"
+[2025-10-04T07:36:32.627Z]  "GET /output.txt" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0"
+[2025-10-04T07:36:51.676Z]  "GET /app.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0"
+[2025-10-04T07:36:58.444Z]  "GET /validate_email.py" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0"
+[2025-10-04T07:37:09.146Z]  "GET /abc.py" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0"
+http-server stopped.
+
+
+PS F:\10.BSc_Data Science\15.TDS\Demo_Git> npx prettier --write
+Need to install the following packages:
+prettier@3.6.2
+Ok to proceed? (y)
+
+Usage: prettier [options] [file/dir/glob ...]
+
+By default, output is written to stdout.
+Stdin is read if it is piped to Prettier and no files are given.
+
+Output options:
+
+  -c, --check              Check if the given files are formatted, print a human-friendly summary
+                           message and paths to unformatted files (see also --list-different).
+  -l, --list-different     Print the names of files that are different from Prettier's formatting (see also --check).
+  -w, --write              Edit files in-place. (Beware!)
+
+Format options:
+
+  --arrow-parens <always|avoid>
+                           Include parentheses around a sole arrow function parameter.
+                           Defaults to always.
+  --bracket-same-line      Put > of opening tags on the last line instead of on a new line.
+                           Defaults to false.
+  --no-bracket-spacing     Do not print spaces between brackets.
+  --embedded-language-formatting <auto|off>
+                           Control how Prettier formats quoted code embedded in the file.
+                           Defaults to auto.
+  --end-of-line <lf|crlf|cr|auto>
+                           Which end of line characters to apply.
+                           Defaults to lf.
+  --experimental-operator-position <start|end>
+                           Where to print operators when binary expressions wrap lines.
+                           Defaults to end.
+  --no-experimental-ternaries
+                           Default behavior of ternaries; keep question marks on the same line as the consequent.  
+  --html-whitespace-sensitivity <css|strict|ignore>
+                           How to handle whitespaces in HTML.
+                           Defaults to css.
+  --jsx-single-quote       Use single quotes in JSX.
+                           Defaults to false.
+  --object-wrap <preserve|collapse>
+                           How to wrap object literals.
+                           Defaults to preserve.
+  --parser <flow|babel|babel-flow|babel-ts|typescript|acorn|espree|meriyah|css|less|scss|json|json5|jsonc|json-stringify|graphql|markdown|mdx|vue|yaml|glimmer|html|angular|lwc|mjml>
+                           Which parser to use.
+  --print-width <int>      The line length where Prettier will try wrap.
+                           Defaults to 80.
+  --prose-wrap <always|never|preserve>
+                           How to wrap prose.
+                           Defaults to preserve.
+  --quote-props <as-needed|consistent|preserve>
+                           Change when properties in objects are quoted.
+                           Defaults to as-needed.
+  --no-semi                Do not print semicolons, except at the beginning of lines which may need them.
+  --single-attribute-per-line
+                           Enforce single attribute per line in HTML, Vue and JSX.
+                           Defaults to false.
+  --single-quote           Use single quotes instead of double quotes.
+                           Defaults to false.
+  --tab-width <int>        Number of spaces per indentation level.
+                           Defaults to 2.
+  --trailing-comma <all|es5|none>
+                           Print trailing commas wherever possible when multi-line.
+                           Defaults to all.
+  --use-tabs               Indent with tabs instead of spaces.
+                           Defaults to false.
+  --vue-indent-script-and-style
+                           Indent script and style tags in Vue files.
+                           Defaults to false.
+
+Config options:
+
+  --config <path>          Path to a Prettier configuration file (.prettierrc, package.json, prettier.config.js).  
+  --no-config              Do not look for a configuration file.
+  --config-precedence <cli-override|file-override|prefer-file>
+                           Define in which order config files and CLI options should be evaluated.
+                           Defaults to cli-override.
+  --no-editorconfig        Don't take .editorconfig into account when parsing configuration.
+  --find-config-path <path>
+                           Find and print the path to a configuration file for the given input file.
+  --ignore-path <path>     Path to a file with patterns describing files to ignore.
+                           Multiple values are accepted.
+                           Defaults to [.gitignore, .prettierignore].
+  --plugin <path>          Add a plugin. Multiple plugins can be passed as separate `--plugin`s.
+                           Defaults to [].
+  --with-node-modules      Process files inside 'node_modules' directory.
+
+Editor options:
+
+  --cursor-offset <int>    Print (to stderr) where a cursor at the given position would move to after formatting.  
+                           Defaults to -1.
+  --range-end <int>        Format code ending at a given character offset (exclusive).
+                           The range will extend forwards to the end of the selected statement.
+                           Defaults to Infinity.
+  --range-start <int>      Format code starting at a given character offset.
+                           The range will extend backwards to the start of the first line containing the selected statement.
+                           Defaults to 0.
+
+Other options:
+
+  --cache                  Only format changed files. Cannot use with --stdin-filepath.
+                           Defaults to false.
+  --cache-location <path>  Path to the cache file.
+  --cache-strategy <metadata|content>
+                           Strategy for the cache to use for detecting changed files.
+  --check-ignore-pragma    Check whether the file's first docblock comment contains '@noprettier' or '@noformat' to determine if it should be formatted.
+                           Defaults to false.
+  --no-color               Do not colorize error messages.
+  --no-error-on-unmatched-pattern
+                           Prevent errors when pattern is unmatched.
+  --file-info <path>       Extract the following info (as JSON) for a given file path. Reported fields:
+                           * ignored (boolean) - true if file path is filtered by --ignore-path
+                           * inferredParser (string | null) - name of parser inferred from file path
+  -h, --help <flag>        Show CLI usage, or details about the given flag.
+                           Example: --help write
+  -u, --ignore-unknown     Ignore unknown files.
+  --insert-pragma          Insert @format pragma into file's first docblock comment.
+                           Defaults to false.
+  --log-level <silent|error|warn|log|debug>
+                           What level of logs to report.
+                           Defaults to log.
+  --require-pragma         Require either '@prettier' or '@format' to be present in the file's first docblock comment in order for it to be formatted.
+                           Defaults to false.
+  --stdin-filepath <path>  Path to the file to pretend that stdin comes from.
+  --support-info           Print support information as JSON.
+  -v, --version            Print Prettier version.
+
+
+  PS F:\10.BSc_Data Science\15.TDS\Demo_Git> npx eslint
+Need to install the following packages:
+eslint@9.37.0
+Ok to proceed? (y)
+
+
+Oops! Something went wrong! :(
+
+ESLint: 9.37.0
+
+ESLint couldn't find an eslint.config.(js|mjs|cjs) file.
+
+From ESLint v9.0.0, the default configuration file is now eslint.config.js.
+If you are using a .eslintrc.* file, please follow the migration guide
+to update your configuration file to the new format:
+
+https://eslint.org/docs/latest/use/configure/migration-guide
+
+If you still have problems after following the migration guide, please stop by
+https://eslint.org/chat/help to chat with the team.
+
+
+PS F:\10.BSc_Data Science\15.TDS\Demo_Git> npx ts-node script.ts
+Need to install the following packages:
+ts-node@10.9.2
+Ok to proceed? (y)
+
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module './script.ts'
+Require stack:
+- F:\10.BSc_Data Science\15.TDS\Demo_Git\imaginaryUncacheableRequireResolveScript
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at Function.resolve (node:internal/modules/helpers:157:19)
+    at requireResolveNonCached (C:\Users\User\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\dist\bin.js:549:16)
+    at getProjectSearchDir (C:\Users\User\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\dist\bin.js:519:40)
+    at phase3 (C:\Users\User\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\dist\bin.js:267:27)    at bootstrap (C:\Users\User\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\dist\bin.js:47:30)
+    at main (C:\Users\User\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\dist\bin.js:33:12)   
+    at Object.<anonymous> (C:\Users\User\AppData\Local\npm-cache\_npx\1bf7c3c15bf47d04\node_modules\ts-node\dist\bin.js:579:5)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'F:\\10.BSc_Data Science\\15.TDS\\Demo_Git\\imaginaryUncacheableRequireResolveScript'
+  ]
+}
+
+Node.js v22.20.0
+
+
+
+PS F:\10.BSc_Data Science\15.TDS\Demo_Git> npx esbuild app.js
+Need to install the following packages:
+esbuild@0.25.10
+Ok to proceed? (y)
+
+var msg = "Hello World in order";
+console.log(msg);
+console.log("New line added");
+console.log("Another line added");
+console.log("Yet another line added");
+console.log("This is a demo file for Git");
+console.log("This file is named app.js");
+console.log("This file is located in Demo_Git folder");
+console.log("This is the last line of the file");
+
+
+PS F:\10.BSc_Data Science\15.TDS\Demo_Git> npx jsdoc
+Need to install the following packages:
+jsdoc@4.0.4
+Ok to proceed? (y)
+
+There are no input files to process.
+
+
